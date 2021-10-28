@@ -5,7 +5,7 @@ const vueApp = new Vue({
         messaggioH1: "Lunga vita e prosperità",
         imgSaluto: "https://www.film.it/typo3temp/pics/d880545a14.jpg",
         classBox: "align-center",
-        classH1: "titolo"
-
+        classH1: "titolo",
+        classImg: "img-animation",
     }
 });
