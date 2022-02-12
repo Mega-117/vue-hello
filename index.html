@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 
     <title>Vue Hello</title>
 </head>
@@ -23,6 +23,9 @@
                 <div class="card">
                     <h1 v-bind:class="classH1">{{messaggioH1}}</h1>
                     <img v-bind:class="classImg" v-bind:src="imgSaluto" alt="img-1">
+                    <p v-show="ginolevel()" v-bind:class="pippo>2?textClass:textGreen">giono
+                        ciao ciao
+                        cuao ciao</p>
                 </div>
             </div>
         </main>
